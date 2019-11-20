@@ -6,7 +6,10 @@ Download or clone repository through the link provided here: https://github.com/
 
 In order to use the Tinder Scraper you need to login to the network. And for that you need an account and get your access token. Here are two methods: 
 
-With inspector tool: open Tinder on Firefox. Open inspector with right clicking on mouse or trackpad. Select the “Network” tab. Look for the XHR GET or POST request and unfold one, scroll down until you find the X-Auth-Token which should look something like this: 24762xxx-xxxx-xxxx-xxxx-xxxdf213316d.
+With a browser inspector tool: open Tinder on Firefox. Open inspector with right clicking on mouse or trackpad. Select the “Network” tab. Look for the XHR GET or POST request and unfold one, scroll down until you find the X-Auth-Token which should look something like this: 24762xxx-xxxx-xxxx-xxxx-xxxdf213316d.
+
+![alt text](https://github.com/andresvillatorres/tinder_light_scraper/blob/master/utils/Screenshot%202019-11-20%20at%2001.29.56.png)
+
 
 With sms verification. Run the python script sms_auth.py inside utils folder. Provide your phone number. Provide the authorisation code you’ll get through sms. It should give you back the same X-Auth-Token.
 
